@@ -1,5 +1,52 @@
-<ol>
-    <li>Car</li>
-    <li>Robot</li>
-    <li>Princess</li>
-</ol>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ifTodd</title>
+</head>
+<style>
+    table, th, td{
+        border:1px solid black;
+    }
+</style>
+<body>
+
+
+    <h4>Produse multe - avem de toate</h4>
+    <table style="width:50%">
+        <th colspan="4">
+            Produse
+        </th>
+        <tr>
+            <td>Masina cu motor, i-al in zbor</td>
+            <td>Robocopul</td>
+            <td>Printesa SISSY, cine altcineva?</td>
+            <td>Ursul din padurea adormita</td>
+        </tr>
+    
+    </table>
+
+
+    <h3>Orders</h3>
+
+    <form action="testDB.php" method="post">
+        <p>Your name: <input type="text" name="name" /></p>
+        <p>Your age: <input type="text" name="age" /></p>
+        <p><input type="submit" /></p>
+        <!-- <label><b>Product_no</b></label><br>
+        <label>product_no: </label><input type="text" name="product_no"><br>
+        <label><b>Order_item</b></label><br>
+        <label>order_item: </label><input type="text" name="order_item"><br>
+        <label><b>Da-mi o cantitate</b></label><br>
+        <label>quantity: </label><input type="text" name="quantity"><br>
+        <label><b>Name</b></label><br>
+        <label>customer_name: </label><input type="text" name="customer_name"><br>
+        <button type="button">Submit</button> -->
+    </form>
+
+    <br>
+    <h3><button onclick="history.back()">Go Back</button></h3>
+
+</body>
+</html>
